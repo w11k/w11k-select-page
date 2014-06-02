@@ -1,0 +1,36 @@
+// ****************************************************************************************************
+// general
+// ****************************************************************************************************
+
+// Core variables and mixins
+@import "twbs-bootstrap-sass/vendor/assets/stylesheets/bootstrap/bootstrap";
+
+// ****************************************************************************************************
+// w11k-slides config
+// ****************************************************************************************************
+
+@import "w11k-slides/dist/w11k-slides";
+@import "w11k-select/dist/w11k-select";
+
+$fa-font-path: "assets/font-awesome/fonts";
+@import "font-awesome/scss/font-awesome";
+
+pre.prettyprint {
+  font-size: 0.7em;
+}
+
+// ****************************************************************************************************
+// w11k-slides bugfixes
+// ****************************************************************************************************
+
+li pre.prettyprint.linenums {
+  margin: 10px 0;
+}
+pre.prettyprint.linenums ol.linenums>li:before {
+  margin: 0;
+}
+
+code {
+  background-color: $lineColor;
+}
+
