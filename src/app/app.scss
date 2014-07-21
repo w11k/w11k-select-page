@@ -20,15 +20,8 @@ pre.prettyprint {
 }
 
 // ****************************************************************************************************
-// w11k-slides bugfixes
+// custom
 // ****************************************************************************************************
-
-li pre.prettyprint.linenums {
-  margin: 10px 0;
-}
-pre.prettyprint.linenums ol.linenums>li:before {
-  margin: 0;
-}
 
 code {
   background-color: $lineColor;
