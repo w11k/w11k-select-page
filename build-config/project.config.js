@@ -9,12 +9,14 @@ module.exports = {
     bless: {
       enabled: false
     },
-    spec: {
-      runInPrepare: false
-    },
-    e2e: {
-      runInDev: false,
-      runInDist: false
+    tests: {
+      spec: {
+        runInPrepare: false
+      },
+      e2e: {
+        runInDev: false,
+        runInDist: false
+      }
     },
     server: {
       runInDist: true

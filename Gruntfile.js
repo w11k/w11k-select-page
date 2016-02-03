@@ -7,10 +7,11 @@ var lodash = require('lodash');
 
 module.exports = function () {
   var configFolder = path.resolve('./build-config');
-  var fabsConfig = fabs.getGruntConfig(configFolder);
+  var fabsConfig = fabs.createConfig(configFolder);
+  var fabsGruntConfig = fabsConfig.getGruntConfig();
 
   var customConfig = {};
 
-  var config = lodash.merge({}, fabsConfig, customConfig);
+  var config = lodash.merge({}, fabsGruntConfig, customConfig);
   grunt.initConfig(config);
 };
