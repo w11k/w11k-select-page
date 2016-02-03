@@ -9,7 +9,6 @@
 // w11k-slides config
 // ****************************************************************************************************
 
-@import "w11k-slides/dist/w11k-slides";
 @import "w11k-select/dist/w11k-select";
 
 $fa-font-path: "assets/font-awesome/fonts";
@@ -24,6 +23,6 @@ pre.prettyprint {
 // ****************************************************************************************************
 
 code {
-  background-color: $lineColor;
+  background-color: #EAEAEA;
 }
 

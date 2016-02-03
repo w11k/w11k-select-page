@@ -24,7 +24,6 @@ module.exports = {
   app: {
     files: {
       templates2js: [
-        'slides/**/*.html'
       ],
       translations: [ ],
       translations2js: [ ]
@@ -36,7 +35,6 @@ module.exports = {
       js: [
         'angular/angular.js',
         'google-code-prettify/src/prettify.js',
-        'w11k-slides/dist/w11k-slides.js',
         'w11k-select/dist/w11k-select.js',
         'w11k-select/dist/w11k-select.tpl.js',
         'angular-bindonce/bindonce.js',
